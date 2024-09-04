@@ -1,0 +1,158 @@
+/* 
+    Graduation project 2024
+    Supervision: Dr.Sona
+    Created by: Ahmed Saber
+*/
+body {
+    background-image: url(../image/jon-tyson-O7ke8N4kTpQ-unsplash.jpg);
+}
+
+.logo {
+
+    background-color: #9591915c;
+    display: inline-block;
+    font-size: 50px;
+    margin-top: 0;
+    margin-left: 35px;
+    padding: 10px;
+    padding-left: 15px;
+}
+
+/* start form */
+fieldset {
+    width: 300px;
+    margin: -3px auto;
+    box-shadow: 1px 1px 1px 1px #9e9e9e6b, 1px 1px 1px 1px #9e9e9e6b;
+    background-color: #8080809c;
+}
+
+label {
+    text-transform: capitalize;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+input {
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 4px;
+    width: 300px;
+    height: 30px;
+    padding-left: 8px;
+    font-size: large;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid;
+    border-radius: 6px;
+    background-color: #ffffff96;
+}
+
+div.major {
+    display: flex;
+}
+
+div.major input {
+    width: 100px;
+    margin-left: -35px !important;
+}
+
+div.major #company {
+    position: relative;
+    right: -80px;
+}
+
+div.major label {
+    width: 50px;
+    margin-left: -30px;
+    margin-top: 5px;
+    font-size: 22px;
+}
+
+.company {
+    position: relative;
+    right: -83px;
+}
+
+label+span {
+    color: red;
+}
+
+.google,
+.facebook {
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 300px;
+    display: block;
+    margin-bottom: 3px;
+    border-radius: 4px;
+    font-size: 20px;
+}
+
+.google {
+    background-color: rgb(255, 60, 0);
+    margin-bottom: 4px;
+}
+
+.facebook {
+    background-color: #0000ffcc;
+}
+
+.google-icon,
+.facebook-icon {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    left: -17px;
+    top: 3px;
+}
+
+.facebook-icon {
+    left: -10px;
+}
+
+.submit {
+    border: none;
+    width: 235px;
+    background: #000000e3;
+    color: #fff;
+    border-radius: 4px;
+    display: inline;
+}
+
+.reset {
+    border: none;
+    width: 70px;
+    background: #272626;
+    color: #fff;
+    border-radius: 4px;
+    display: inline;
+}
+
+.back-to-login {
+    background-color: #ffffff96;
+    text-align: center;
+    margin-bottom: 3px;
+    border-radius: 4px;
+    font-size: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 300px;
+    display: block;
+    text-transform: capitalize;
+}
+
+.login-page {
+    text-decoration: none;
+    color: #504f4f;
+    font-size: 23px;
+}
+
+.login-page:hover {
+    text-decoration: underline;
+}
+
+/* end form */

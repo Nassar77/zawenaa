@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+
+}
+
+.div1 {
+    background-color: #222;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.search {
+    background-color: #eee;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 70%;
+}
+
+.form-group {
+    margin-bottom: 10px;
+    direction: rtl;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+select,
+input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+}
+
+button {
+    padding: 8px 12px;
+    background-color: #146483;
+    color: #fff;
+    border: 1px solid black;
+    cursor: pointer;
+    margin-left: 850px;
+    width: 80px;
+    height: 40px;
+    font-size: 20px;
+}
+
+h2 {
+    text-align: right;
+}
+
+.jop0 {
+    list-style-type: none;
+}
+
+.jobs {
+    width: 72%;
+    padding: 10px;
+    list-style-type: none;
+
+}
+
+.job {
+    border: 1px solid #146483;
+    padding: 10px;
+    direction: rtl;
+    text-align: right;
+    font-size: 20px;
+}
+
+.jp2 {
+    color: blue;
+}
+
+a:hover {
+    color: #F00;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+
+.jop-ok {
+    background-color: #d1cfcf;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 27%;
+    height: fit-content;
+    position: absolute;
+    right: 0;
+    top: 120px;
+    font-size: large;
+    text-align: center;
+}
+
+.jobs-1 {
+    border: 1px solid #146483;
+    padding: 10px;
+    direction: rtl;
+    text-align: right;
+    font-size: 20px;
+}

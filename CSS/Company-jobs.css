@@ -1,0 +1,280 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-image: url(../sam.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    direction: ltr;
+}
+
+/*  start header style */
+header.contianer {
+    width: 100%;
+    padding-right: 30px;
+    background-color: #282c4e;
+    color: #fff;
+    /* overflow: hidden; */
+    display: flex;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+header h1.lable {
+    width: 20%;
+    margin: 0;
+    padding: 20px;
+    font-size: 23px;
+    text-align: right;
+    text-transform: uppercase;
+
+}
+
+header ul.nav-links {
+    width: 80%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+    flex-wrap: wrap;
+    list-style: none;
+
+}
+
+li.big-items a.sub-items {
+    color: #fff;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+li.big-items .eg-logo {
+    width: 20px;
+    height: 15px;
+}
+
+li.big-items a.sub-items:hover {
+    color: black;
+}
+
+/* 
+\\**dropdown menu style**\\
+\\**i dont this menu here.**\\
+li.big-items.with-menu:hover ul.dropdwon-menu {
+display: block;
+}
+
+ul.dropdwon-menu {
+padding: 0;
+min-width: 150px;
+position: absolute;
+right: 38px;
+top: 57px;
+background-color: #282c4ecf;
+list-style: none;
+z-index: 2;
+display: none;
+}
+
+ul.dropdwon-menu::before {
+content: "";
+border-width: 10px;
+border-style: solid;
+border-color: transparent transparent #f6f6f6 transparent;
+position: absolute;
+right: 5px;
+top: -20px;
+}
+
+ul.dropdwon-menu li.menu-items a.sub-manu-item {
+display: block;
+text-decoration: none;
+color: #fff;
+transition: .3s;
+padding: 15px;
+}
+
+ul.dropdwon-menu li.menu-items a:hover {
+padding-left: 25px;
+}
+
+ul.dropdwon-menu li.menu-items:not(:last-child) a {
+border-bottom: 1px solid #111111;
+} 
+*/
+
+/* end header style */
+
+.per {
+    padding: 10px;
+    height: 100%;
+    width: 100%;
+    /* background-color: rgb(255, 255, 255); */
+    display: grid;
+    /* grid-template-columns: 2.5fr 4fr 4fr; */
+    gap: 10px;
+    grid-template-rows: minmax(100px, autofill);
+    grid-template-columns: repeat(4, 1fr);
+}
+
+
+.per>div {
+    text-align: center;
+    padding: 20px;
+    background-color: darkgrey;
+    color: antiquewhite;
+    border: 3px solid black;
+    border-radius: 6px;
+}
+
+.per .ch1 {
+    background: transparent;
+    grid-column: 2/5;
+    border: none;
+}
+
+.per .ch1 .mainbtn {
+    font-size: 50px;
+    text-decoration: none;
+    transition: all 0.5s;
+    border-radius: 15px;
+    border: 1px #700;
+    color: #f6f6f6;
+    background-color: #700;
+    padding: 20px 230px 20px 230px;
+    margin: 50px auto 50px auto;
+}
+
+
+.per .ch1 .mainbtn:hover {
+    font-size: 50px;
+    text-decoration: none;
+    transition: all 0.5s;
+    border-radius: 15px;
+    border: 1px #700;
+    color: #700;
+    background-color: #f6f6f6;
+    padding: 20px 200px
+}
+
+
+.per .ch3 {
+    grid-row-start: 1;
+    grid-row-end: 9;
+    margin-top: 10px;
+}
+
+.pic1 {
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 12px;
+    /* margin-left: 288px; */
+    display: block;
+    margin: 0 auto;
+    width: 45%;
+    height: 40%;
+
+}
+
+.ch2 .write2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    font-size: 20px;
+}
+
+.ch4 .write4 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    font-size: 20px;
+}
+
+.ch5 .write5 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    font-size: 20px;
+}
+
+.ch6 .write6 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    font-size: 20px;
+}
+
+.ch8 .write8 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    font-size: 20px;
+}
+
+.ch9 .write9 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    font-size: 20px;
+}
+
+.ch10 .write10 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    font-size: 20px;
+}
+
+.ch11 .write11 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    font-size: 20px;
+}
+
+.ch12 .write12 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    font-size: 20px;
+}
+
+.ch14 .write14 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    font-size: 20px;
+}
+
+.ch15 .write15 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    font-size: 20px;
+}
+
+.ch16 .write16 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    font-size: 20px;
+}

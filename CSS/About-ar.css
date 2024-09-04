@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+}
+/* 
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+} */
+
+/* .logo {
+    width: 200px;
+    height: 100px;
+} */
+
+.about-us{
+    text-align: center;
+}
+.products{
+    text-align: center;
+    line-height: 2rem;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.about-us, .products {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+/* .image-container {
+    display:flex;
+    justify-content: space-between;
+}
+.image-container img {
+    width: 30%; 
+    height: auto;
+} */
+
+
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    width: auto ;
+    height: 100%;
+}
+.place {
+    text-align: center;
+    width: auto;
+    height: fit-content;
+    padding: 7px;
+}
+.place img {
+    width: 200px; 
+    height: 200px;
+    margin-bottom: 10px;
+}

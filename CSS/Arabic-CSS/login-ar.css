@@ -1,0 +1,201 @@
+/* 
+    Graduation project 2024
+    Supervision: Dr.Sona
+    Created by: Ahmed Saber
+*/
+body {
+    background-image: url(../../image/jon-tyson-O7ke8N4kTpQ-unsplash.jpg);
+    background-size: cover;
+    direction: rtl;
+}
+
+.logo {
+    background-color: #9591915c;
+    display: inline-block;
+    font-size: 50px;
+    margin-top: 0;
+    margin-right: 35px;
+    padding: 10px;
+    padding-left: 15px;
+}
+
+.logo-img {
+    width: 100px;
+    height: 90px;
+    vertical-align: middle;
+    margin-right: 12px;
+}
+
+fieldset {
+    width: 450px;
+    height: 325px;
+    margin: 20px auto;
+    border-color: transparent;
+    background-color: #00000087;
+    border-radius: 28px;
+}
+
+legend {
+    font-family: serif;
+    font-weight: bold;
+    color: #fff;
+}
+
+.first {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 10px;
+    position: relative;
+}
+
+.user-icon {
+    position: absolute;
+    right: 112px;
+    top: 14px;
+    font-size: 22px;
+}
+
+.second {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 10px;
+    margin-top: -20px;
+    position: relative;
+}
+
+.lock-icon {
+    position: absolute;
+    right: 112px;
+    top: 14px;
+    font-size: 21px;
+}
+
+::placeholder {
+    text-align: right;
+    color: #fff;
+    font-size: 20px;
+}
+
+input {
+    border-color: transparent transparent #00000059 transparent;
+    width: 267px;
+    border-width: 5px;
+    height: 35px;
+    background-color: transparent;
+    background-color: #ffffffb3;
+    font-weight: bold;
+    font-size: 20px;
+    color: #000;
+    padding-right: 32px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+div.buttones {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 10px;
+    font-size: 25px;
+}
+
+a {
+    color: #fff;
+    width: 267px;
+    /* height: 35px; */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.submit {
+    margin-top: -20px;
+    background-color: #960606c2;
+}
+
+.register {
+    background-color: #777a74d1;
+}
+
+.register {
+    text-decoration: none;
+    color: #fff;
+}
+
+.forgotpass {
+    border-color: transparent;
+    background-color: transparent;
+    font-size: 16px;
+    margin-top: -10px;
+    color: #dedede;
+}
+
+.sperator {
+    margin-top: -14px;
+    width: 75%;
+    height: 4px;
+    position: relative;
+    background-color: #9e9e9e69;
+    display: block;
+    right: 55px;
+}
+
+.sperator::before {
+    content: "أو";
+    width: 25px;
+    height: 25px;
+    line-height: 1.5;
+    border-radius: 50%;
+    background-color: rgb(128, 124, 124);
+    color: #ffffffad;
+    left: 46%;
+    position: absolute;
+    text-align: center;
+    top: -10px;
+}
+
+.google,
+.facebook {
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 223px;
+    display: block;
+    margin-top: 15px;
+    border-radius: 4px;
+    font-size: 18px;
+    display: inline-block;
+}
+
+.google {
+    background-color: rgb(255, 60, 0);
+}
+
+.facebook {
+    background-color: #0000ffcc;
+}
+
+.google-icon,
+.facebook-icon {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    left: -8px;
+    top: 3px;
+}
+
+.facebook-icon {
+    left: -5px;
+}
